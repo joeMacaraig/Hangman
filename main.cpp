@@ -8,7 +8,7 @@ srand(time(NULL));
 
 string wordBank[] = {"basketball", "programming", "palasade", "sleeping"}; //random words
 string display[] = {"__________", "___________", "________", "________"};
-int random = rand()% 4+1; //random number from 1-4
+int random = rand()% 4; //random number from 0-3
 int wrong = 0; //tracks the users mistakes
 vector<char> incorrect; //will store the letters that are wrong
 char guess; //user input

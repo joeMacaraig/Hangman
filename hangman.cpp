@@ -19,6 +19,7 @@ void status(vector<char> incorrect, string output){
     for(int j = 0; j < output.size(); j++){
         cout << output[j] << " ";
     }
+    cout << endl;
 }
 
 void mistakes(int wrong){
@@ -52,7 +53,7 @@ void mistakes(int wrong){
         cout << "  |   |\n";
         cout << "  |   |\n";
         cout << "  O   |\n";
-        cout << "  | |\n";
+        cout << "  |   |\n";
         cout << "  |   |\n";
         cout << "      |\n";
         cout << "      |\n";
@@ -76,7 +77,7 @@ void mistakes(int wrong){
         cout << "  |   |\n";
         cout << "  |   |\n";
         cout << "  O   |\n";
-        cout << "--| |\n";
+        cout << "--|   |\n";
         cout << "  |   |\n";
         cout << " /    |\n";
         cout << "/     |\n";
